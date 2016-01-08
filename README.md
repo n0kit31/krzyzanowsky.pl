@@ -1,1 +1,1 @@
-# krzyzanowsky.pl
+# Sources of homepage - krzyzanowsky.pl
