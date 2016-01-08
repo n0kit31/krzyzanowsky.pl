@@ -1,0 +1,31 @@
+<div id="wrapper">
+    <div id="bg"></div>
+    <div id="overlay"></div>
+    <div id="main">
+        <div class="content">
+            <header id="header">
+                <h1>{name -> f:format.raw()}</h1>
+                <p>
+                    {description0 -> f:format.raw()} &nbsp;&bull;&nbsp;
+                    {description1 -> f:format.raw()} &nbsp;&bull;&nbsp;
+                    {description2 -> f:format.raw()} &nbsp;&bull;&nbsp;
+                    {description3 -> f:format.raw()}
+                </p>
+                <nav>
+                    <ul>
+                        <li><a href="{twitter -> f:format.raw()}" target="_blank" class="icon fa-twitter"><span class="label"></span></a></li>
+                        <li><a href="{facebook -> f:format.raw()}" target="_blank" class="icon fa-facebook"><span class="label"></span></a></li>
+                        <li><a href="{github -> f:format.raw()}" target="_blank" class="icon fa-github"><span class="label"></span></a></li>
+                        <li><a href="{email -> f:format.raw()}" class="icon fa-envelope-o"><span class="label"></span></a></li>
+                    </ul>
+                </nav>
+            </header>
+
+            <footer id="footer">
+                <span class="copyright">
+                    {footer -> f:format.raw()}
+                </span>
+            </footer>
+        </div>
+    </div>
+</div>

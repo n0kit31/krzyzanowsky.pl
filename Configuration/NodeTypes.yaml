@@ -1,8 +1,82 @@
-# If you need more than just the "main" content area you can uncomment the snippet below. It will add a "sidebar" area
-# to your pages. You can add as many areas as you like, still only those that are rendered in your TypoScript and
-# Template are visible on your page.
----
-#'TYPO3.Neos.NodeTypes:Page':
-#  childNodes:
-#    'sidebar':
-#      type: 'TYPO3.Neos:ContentCollection'
+'krzyzanowsky.pl:Homepage':
+  superTypes: ['TYPO3.Neos:Content']
+  ui:
+    label: 'Homepage'
+    group: 'general'
+    inlineEditable: TRUE
+    inspector:
+      groups:
+        media:
+          label: 'Properties'
+          position: 1
+  properties:
+    name:
+      type: string
+      ui:
+        label: Name and Surname
+        inlineEditable: TRUE
+        inspector:
+          group: 'media'
+    description0:
+      type: string
+      ui:
+        label: First description
+        inlineEditable: TRUE
+        inspector:
+          group: 'media'
+    description1:
+      type: string
+      ui:
+        label: Second description
+        inlineEditable: TRUE
+        inspector:
+          group: 'media'
+    description2:
+      type: string
+      ui:
+        label: Third description
+        inlineEditable: TRUE
+        inspector:
+          group: 'media'
+    description3:
+      type: string
+      ui:
+        label: Fourth description
+        inlineEditable: TRUE
+        inspector:
+          group: 'media'
+    twitter:
+      type: string
+      ui:
+        label: Twitter
+        inlineEditable: TRUE
+        inspector:
+          group: 'media'
+    facebook:
+      type: string
+      ui:
+        label: Facebook
+        inlineEditable: TRUE
+        inspector:
+          group: 'media'
+    github:
+      type: string
+      ui:
+        label: Github
+        inlineEditable: TRUE
+        inspector:
+          group: 'media'
+    email:
+      type: string
+      ui:
+        label: E-mail
+        inlineEditable: TRUE
+        inspector:
+          group: 'media'
+    footer:
+      type: string
+      ui:
+        label: Footer
+        inlineEditable: TRUE
+        inspector:
+          group: 'media'

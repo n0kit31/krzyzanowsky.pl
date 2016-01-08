@@ -1,0 +1,12 @@
+prototype(krzyzanowsky.pl:Homepage) < prototype(TYPO3.Neos:Content) {
+    name = ${q(node).property('name')}
+    description0 = ${q(node).property('description0')}
+    description1 = ${q(node).property('description1')}
+    description2 = ${q(node).property('description2')}
+    description3 = ${q(node).property('description3')}
+    twitter = ${q(node).property('twitter')}
+    facebook = ${q(node).property('facebook')}
+    github = ${q(node).property('github')}
+    email = ${q(node).property('email')}
+    footer = ${q(node).property('footer')}
+}

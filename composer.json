@@ -1,7 +1,7 @@
 {
     "name": "krzyzanowsky/pl",
     "type": "typo3-flow-site",
-    "description": "Add description here",
+    "description": "Homepage of krzyzanowsky.pl",
     "require": {
         "typo3/neos": "*",
         "typo3/neos-nodetypes": "*"
