@@ -1,1 +1,2 @@
-# Sources of homepage - krzyzanowsky.pl
+# Sources of homepage - http://krzyzanowsky.pl
+# BY NEOS CMS
