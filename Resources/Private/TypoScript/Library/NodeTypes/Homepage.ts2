@@ -6,7 +6,8 @@ prototype(krzyzanowsky.pl:Homepage) < prototype(TYPO3.Neos:Content) {
     description3 = ${q(node).property('description3')}
     twitter = ${q(node).property('twitter')}
     facebook = ${q(node).property('facebook')}
-    github = ${q(node).property('github')}
     email = ${q(node).property('email')}
+    github = ${q(node).property('github')}
+    linkedin = ${q(node).property('linkedin')}
     footer = ${q(node).property('footer')}
 }

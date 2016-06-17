@@ -66,6 +66,13 @@
         inlineEditable: TRUE
         inspector:
           group: 'media'
+    linkedin:
+      type: string
+      ui:
+        label: Linkedin
+        inlineEditable: TRUE
+        inspector:
+          group: 'media'
     email:
       type: string
       ui:
